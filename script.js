@@ -5,32 +5,32 @@ const products = [
     name: "Разделочная доска",
     description: "Экологичная бамбуковая доска для кухни.",
     price: 1290,
-    image: "media/doska.jpg",
-    imageWebp: "media/doska.webp"
+    image: "doska.jpg",
+    imageWebp: "doska.webp"
   },
   {
     id: 2,
     name: "Чайник керамический",
     description: "Стильный чайник на 1 литр, ручная работа.",
     price: 2450,
-    image: "media/pot.jpg",
-    imageWebp: "media/pot.webp"
+    image: "pot.jpg",
+    imageWebp: "pot.webp"
   },
   {
     id: 3,
     name: "Набор кухонных полотенец",
     description: "100% хлопок, 4 шт. в упаковке.",
     price: 590,
-    image: "media/towels.jpg", // можно заменить на другое изображение
-    imageWebp: "media/towels.webp"
+    image: "towels.jpg", // можно заменить на другое изображение
+    imageWebp: "towels.webp"
   },
   {
     id: 4,
     name: "Набор кухонных полотенец",
     description: "100% хлопок, 4 шт. в упаковке.",
     price: 590,
-    image: "media/towels.jpg", // можно заменить на другое изображение
-    imageWebp: "media/towels.webp"
+    image: "towels.jpg", // можно заменить на другое изображение
+    imageWebp: "towels.webp"
   }
 ];
 
@@ -147,4 +147,5 @@ checkoutBtn.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
   renderCatalog();
   updateCartUI(); // на случай, если корзина уже есть (в реальном проекте — из localStorage)
+
 });
